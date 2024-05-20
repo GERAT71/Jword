@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="assets/jw.png">
+
+    <script src="script.js"></script>
+
+    <title>JWord</title>
+
+  </head>
+
+  <body>
+
+    <div id='Navbar' class="Navbar" onload="read()">
+        <img id="JWLogo" src="assets/jw.png"></img>
+        <div id="NavTop">
+
+            <label id='openbtnstyle' for="openbtn" onmouseenter="hover(this)", onmouseleave="unhover(this)">Otwórz</label>
+            <input type='file' id='openbtn' onclick="openfile()"></input>
+
+            <button id='NavTopBtn' onclick="savefile()" onmouseenter="hover(this)", onmouseleave="unhover(this)">Zapisz</button>
+            <input type='text' id='inputname' className='Select'></input>
+
+            <select id="filetype" class='Select'>
+                <option value='.txt' selected>.txt</option>
+                <option value='.jword'>.jword</option>
+            </select>
+
+            <select id="Font" class='Select' onchange="SetFont()">
+                <option value='Calibri' selected>Calibri</option>
+                <option value='Arial'>Arial</option>
+                <option value='Lucida Console'>Lucida Console</option>
+                <option value='Sans serif'>Sans serif</option>
+                <option value='Gill Sans'>Gill Sans</option>
+            </select>
+
+            <select id="Px" class='Select' onchange="SetPx()">
+                <option value='12' selected>12px</option>
+                <option value='14'>14px</option>
+                <option value='16'>16px</option>
+                <option value='18'>18px</option>
+                <option value='20' selected>20px</option>
+                <option value='24'>24px</option>
+                <option value='28'>28px</option>
+                <option value='36'>36px</option>
+                <option value='48'>48px</option>
+                <option value='72'>72px</option>
+            </select>
+
+            <select id="Align" class='TextAlign' onchange="SetAlign()">
+                <option value='Left' selected>⇇</option>
+                <option value='Right'>⇉</option>
+                <option value='Center'>⇎</option>
+            </select>
+
+            <div id='Bold' class='Icons' onclick="Bold()" onmouseenter="hover(this)", onmouseleave="unhover(this)">B</div>
+            <div id='Italic' class='Icons' onclick="Italic()" onmouseenter="hover(this)", onmouseleave="unhover(this)">I</div>
+            <div id='Marked' class='Icons' onclick="Marked()" onmouseenter="hover(this)", onmouseleave="unhover(this)">M</div>
+
+            <input type='color' id='FontColor' onchange="SetFontColor()"></input>
+
+            <select id="Theme" onchange="Theme()">
+                <option value="Classic" selected>Classic</option>
+                <option value="ModernDark">Modern (Dark)</option>
+                <option value="ModernWhite">Modern (White)</option>
+            </select>
+        </div>
+    </div>
+
+    <div id='parent'>
+        <p contentEditable='true' id="input-box"></p>
+    </div>
+
+  </body>
+
+  <script>
+
+  </script>
+
+</html>
+

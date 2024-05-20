@@ -1,0 +1,281 @@
+#Navbar
+{
+  width: autopx;
+  height: 150px;
+
+  margin:0;
+
+  background-color: rgb(208, 208, 208);
+
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px 2px rgb(111, 111, 111);
+}
+
+body
+{
+  background-color: rgb(169, 169, 169);
+}
+
+#JWLogo
+{
+  width: 50px;
+  height: 50px;
+
+  margin-top:5px;
+  margin-left:5px;
+
+  border-radius: 2px;
+
+  box-shadow: 2px 2px 2px rgb(0, 110, 255);
+}
+
+#NavTop
+{
+  display:flex;
+}
+
+#NavTopBtn
+{
+  margin-left: 5px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+}
+
+#NavTopBtn:hover
+{
+  background-color: rgb(163, 163, 163);
+
+  border-radius: 5px;
+}
+
+.Select
+{
+  margin-left: 5px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+}
+
+.TextAlign
+{
+  width: 40px;
+  height: 30px;
+
+  background-color: rgb(201, 201, 201);
+
+  margin-left: 5px;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  border:none;
+}
+
+#Bold
+{
+  width: 30px;
+  height: 30px;
+
+  background-color: rgb(201, 201, 201);
+
+  margin-left: 5px;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  font-weight: 700;
+}
+
+#Bold:hover
+{
+  background-color: rgb(163, 163, 163);
+}
+
+#Italic
+{
+  width: 30px;
+  height: 30px;
+
+  background-color: rgb(201, 201, 201);
+
+  margin-left: 5px;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  font-style:italic;
+}
+
+#Italic:hover
+{
+  background-color: rgb(163, 163, 163);
+}
+
+#Marked
+{
+  width: 30px;
+  height: 30px;
+
+  background-color: rgb(201, 201, 201);
+
+  margin-left: 5px;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  text-decoration: underline;
+}
+
+#Marked:hover
+{
+  background-color: rgb(163, 163, 163);
+}
+
+#FontColor
+{
+  width: 30px;
+  height: 30px;
+
+  background-color: rgb(201, 201, 201);
+
+  margin-left: 5px;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  border:none;
+
+}
+
+#FontColor:hover
+{
+  background-color: rgb(163, 163, 163);
+}
+
+#parent
+{
+  width: auto;
+  height: auto;
+
+  display:flex;
+}
+
+#input-box
+{
+  background-color: white;
+
+  border:none;
+
+  min-height: 1000px;
+  width: 800px;
+
+  box-shadow: 2px 2px 2px 2px rgb(111, 111, 111);
+
+  margin:auto;
+  margin-top:10px;
+
+  border-radius: 5px;
+
+  text-align: left;
+
+  position: relative;
+
+  padding: 20px;
+
+  font-size: 20px;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#Theme
+{
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+}
+
+.Select
+{
+  margin-left: 5px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+}
+
+#openbtnstyle
+{
+  margin-left: 5px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: center;
+
+  font-size: 14px;
+}
+
+#openbtnstyle:hover
+{
+  background-color: rgb(163, 163, 163);
+
+  border-radius: 5px;
+}
+
+input[type="file"]#openbtn
+{
+  display:none;
+}
+
+#inputname
+{
+  margin-left: 5px;
+  margin-top:10px;
+
+  width: 100px;
+  height: 30px;
+
+  border:none;
+
+  background-color: rgb(201, 201, 201);
+}
